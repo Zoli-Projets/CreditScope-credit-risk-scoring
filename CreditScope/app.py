@@ -1,3 +1,27 @@
+# ============================================================
+# CreditScope | Credit Risk Analytics & Scoring
+# ============================================================
+#
+# Copyright (c) 2026 [Zolifaga Samuel Yeo]
+# All rights reserved.
+#
+# CreditScope is a credit risk analytics and scoring
+# application designed for predictive risk assessment,
+# model interpretation, and data-driven decision support.
+#
+# This source code is made available for viewing and
+# evaluation purposes only.
+#
+# Reproduction, modification, redistribution, or commercial
+# use requires prior written authorization from the author.
+#
+# ------------------------------------------------------------
+# CONTACT & INQUIRIES
+# email: yeozolifagasamuel@gmail.com
+# linkedin: https://www.linkedin.com/in/zolifaga-samuel-yeo-0b825a371/?isSelfProfile=true
+# ------------------------------------------------------------
+
+
 import io
 from pathlib import Path
 import joblib
@@ -393,4 +417,11 @@ st.sidebar.markdown(
     </p>
     """,
     unsafe_allow_html=True
+)
+
+st.warning(
+    "© 2026 CreditScope —"
+    "Tous droits réservés. "
+    "Reproduction ou réutilisation du code soumise "
+    "à l'autorisation de l'auteur."
 )
