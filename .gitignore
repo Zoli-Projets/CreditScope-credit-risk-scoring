@@ -19,3 +19,8 @@ env/
 
 # Fichiers système
 .DS_Store
+
+# Code source de l'application CreditScope
+/CreditScope/app.py
+# Code source de l'application CreditScope
+/CreditScope/app.py
